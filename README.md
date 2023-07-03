@@ -1,5 +1,3 @@
-# Dialog FullStack (react/pwa/node) Test
-
 ### Descrição da API 
 
 #### Tecnologias Utilizadas:
