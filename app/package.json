@@ -1,0 +1,37 @@
+{
+    "name": "pwa-vite-react-boilerplate",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview --port=3000",
+        "lint": "eslint 'src/**/*.ts' --fix"
+    },
+    "dependencies": {
+        "@apollo/client": "^3.7.16",
+        "axios": "^1.4.0",
+        "graphql": "^16.7.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^5.3.0",
+        "react-switch": "^6.0.0",
+        "styled-components": "^6.0.1",
+        "use-debounce": "^9.0.4"
+    },
+    "devDependencies": {
+        "@types/react": "^18.2.14",
+        "@types/react-dom": "^18.2.5",
+        "@types/react-router-dom": "^5.3.3",
+        "@typescript-eslint/eslint-plugin": "^5.60.1",
+        "@typescript-eslint/parser": "^5.60.1",
+        "@vitejs/plugin-react": "^4.0.1",
+        "eslint": "^8.44.0",
+        "eslint-plugin-react": "^7.32.2",
+        "sass": "^1.63.6",
+        "typescript": "^5.0.4",
+        "vite": "^4.3.9",
+        "vite-plugin-pwa": "^0.16.3"
+    }
+}

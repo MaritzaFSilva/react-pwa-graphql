@@ -1,0 +1,37 @@
+{
+    "name": "testdialog",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "compile": "tsc",
+        "start": "npm run compile && node ./dist/src/index.js",
+        "build": "npm run lint && npm run compile",
+        "dev": "nodemon --exec 'ts-node --esm' src/index.ts",
+        "lint": "eslint . --ext .ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "dependencies": {
+        "@apollo/server": "^4.7.5",
+        "class-validator": "^0.14.0",
+        "cors": "^2.8.5",
+        "dayjs": "^1.11.9",
+        "graphql": "^16.7.1",
+        "graphql-tag": "^2.12.6",
+        "reflect-metadata": "^0.1.13",
+        "type-graphql": "^2.0.0-beta.2"
+    },
+    "devDependencies": {
+        "@types/cors": "^2.8.12",
+        "@types/node": "^20.3.2",
+        "@typescript-eslint/eslint-plugin": "^5.60.1",
+        "@typescript-eslint/parser": "^5.60.1",
+        "eslint": "^8.44.0",
+        "nodemon": "^2.0.22",
+        "ts-node-dev": "^2.0.0",
+        "typescript": "^5.1.6"
+    }
+}
